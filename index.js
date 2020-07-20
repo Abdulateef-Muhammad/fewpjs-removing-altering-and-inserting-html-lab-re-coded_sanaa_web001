@@ -1,6 +1,7 @@
 // Write your code here!
 document.querySelector("#main").remove();
 
-let newHeader = document.createElement('h1');
+document.body.innerHTML = '<h1 id="victory"></h1>';
+let newHeader = document.querySelector('h1#victory');
 
 newHeader.className = ''
